@@ -26,7 +26,7 @@ link.forEach(function (item) {
 
 //Change active link in section on scroll
 window.addEventListener("scroll", function (e) {
-  const fromTop = window.scrollY;
+  const fromTop = window.scrollY + 100;
 
   link.forEach(function (item) {
     const section = document.querySelector(item.hash);
